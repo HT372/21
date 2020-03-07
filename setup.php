@@ -16,7 +16,7 @@ header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
     <!-- Das neueste kompilierte und minimierte JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <title>YSFReflector-Dashboard by DG9VH - Setup</title>
+    <title>P25Reflector-Dashboard by DG9VH - Setup</title>
   </head>
   <body>
 <?php
@@ -39,16 +39,16 @@ header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");
 		fclose($configfile);
 ?>
   <div class="page-header">
-    <h1><small>YSFReflector-Dashboard by DG9VH</small> Setup-Process</h1>
+    <h1><small>P25Reflector-Dashboard by DG9VH</small> Setup-Process</h1>
     <div class="alert alert-success" role="alert">Your config-file is written in config/config.php, please remove setup.php for security reasons!</div>
-    <p><a href="index.php">Your dashboard is now available.</a></p>
+    <p><a href="index.php">Haiti P25 / TG 37225</a></p>
   </div>
 <?php
 	} else {
 ?>
   <div class="page-header">
-    <h1><small>YSFReflector-Dashboard by DG9VH</small> Setup-Process</h1>
-    <h4>Please give necessary information below</h4>
+    <h1><small>Haiti P25Reflector-Dashboard by DG9VH</small> Setup-Process</h1>
+    <h4>TG 37225  / Haiti P25</h4>
   </div>
   <form id="config" action="setup.php" method="get">
     <input type="hidden" name="cmd" value="writeconfig">
