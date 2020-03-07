@@ -38,12 +38,12 @@ include "version.php";
                 padding: 10px;
                 }
  	</style>
-    <title><?php echo getConfigItem("Info", "Name", $configs); ?> - YSFReflector-Dashboard by DG9VH</title>
+    <title><?php echo getConfigItem("Info", "Name", $configs); ?> - P25Reflector-Dashboard by DG9VH</title>
   </head>
   <body>
   <div class="page-header" style="position:relative;">
-  <h1><small>YSFReflector-Dashboard by DG9VH for Reflector:</small>  <?php echo getConfigItem("Info", "Name", $configs); ?> / <?php echo getConfigItem("Info", "Description", $configs); ?></h1>
-  <h4>YSFReflector by G4KLX Version: 
+  <h1><center>TG 37225 / Haiti P25</center>  <?php echo getConfigItem("Info", "Name", $configs); ?> / <?php echo getConfigItem("Info", "Description", $configs); ?></h1>
+  <h4>P25Reflector by G4KLX Version: xxxx
   <?php  echo getYSFReflectorVersion(); ?></h4>
   <?php
   if (LOGO !== "") {
